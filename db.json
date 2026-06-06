@@ -1,0 +1,32 @@
+{
+  "pizzas": [
+    {
+      "id": 1,
+      "name": "Pepperoni",
+      "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      "price": "R$ 39,90",
+      "image": "/Pizzaimage1.png"
+    },
+    {
+      "id": 2,
+      "name": "Muita maionese",
+      "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      "price": "R$ 39,90",
+      "image": "/Pizzaimage2.png"
+    },
+    {
+      "id": 3,
+      "name": "Queijo",
+      "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      "price": "R$ 39,90",
+      "image": "/Pizzaimage3.png"
+    },
+    {
+      "id": 4,
+      "name": "Vários ingredientes",
+      "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      "price": "R$ 39,90",
+      "image": "/Pizzaimage4.png"
+    }
+  ]
+}
