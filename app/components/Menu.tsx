@@ -29,9 +29,9 @@ export default function Menu() {
       <h2 className="text-center text-[#6B1D1D] font-bold text-2xl mb-10">
         Nosso cardápio
       </h2>
-      <div className="flex flex-col md:flex-row justify-center gap-6">
+      <div className="flex md:flex-row overflow-x-auto gap-6 pb-4 md:justify-center snap-x snap-mandatory">
         {pizzas.map((pizza) => (
-          <div key={pizza.id} className="bg-white border border-gray-200 rounded-lg p-6 flex flex-col items-center text-center max-w-xs">
+          <div key={pizza.id} className="bg-white border border-gray-200 rounded-lg p-6 flex flex-col items-center text-center min-w-[260px] snap-center">
             <Image src={pizza.image} alt={pizza.name} width={150} height={150} className="mb-4" />
             <h3 className="font-bold text-[#6B1D1D] mb-2">{pizza.name}</h3>
             <p className="text-sm text-gray-600 mb-4">{pizza.description}</p>
